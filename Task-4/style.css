@@ -1,0 +1,28 @@
+.cardscol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #9AEFF4;
+    color: black;
+    width: 250px;
+    margin: 70px 0px 50px 0px;
+    font-size: 13px;
+    box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.45),
+        0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+    transition: transform .3s ease-in-out;
+    border: black 2px solid;
+}
+
+body {
+    background-image: linear-gradient(to left, #bb73e0, #d476d5, #e77bca, #f583c0, #ff8db8);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    background-color: #42E2EC;
+}
